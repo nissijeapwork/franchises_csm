@@ -51,8 +51,23 @@ npm run build
 npm run dev
 ```
 
-### 4. Configure Environment
-Copy the example environment file:
+### 4: Start Apache and MySQL
+
+1. Open **XAMPP Control Panel**
+2. Click **Start** for both **Apache** and **MySQL**
+
+### 5: Create the Database
+1. Go to [http://localhost/phpmyadmin](http://localhost/phpmyadmin)
+2. Create a new database named `franchise_directory`.
+3. Navigate to your project directory: /MySQL-DB/
+4. Import the SQL file `franchise_directory.sql`:
+- In phpMyAdmin, click the franchise_directory database
+- Click the Import tab
+- Choose the file: franchise_directory.sql
+- Click Go
+
+### 6. Configure Environment
+Go to prohject directory. Copy the example environment file:
 ```bash
 cp .env.example .env
 ```
@@ -74,17 +89,17 @@ DB_USERNAME=root
 DB_PASSWORD=
 ```
 
-### 5. Generate Application Key
+### 7. Generate Application Key
 ```bash
 php artisan key:generate
 ```
 
-### 6. Create Storage Symlink
+### 8. Create Storage Symlink
 ```bash
 php artisan storage:link
 ```
 
-### 7. Run Database Migrations
+### 9. Run Database Migrations
 ```bash
 php artisan migrate
 ```
