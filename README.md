@@ -109,4 +109,20 @@ php artisan migrate
 php artisan serve
 ```
 
-Visit your app at http://127.0.0.1:8000
+Visit your app at http://127.0.0.1:8000/login
+
+---
+
+## 🔐 Default Login Credentials
+
+Use the following credentials to access the system:
+
+### 👑 Super Admin
+- **Email:** john@laravel.com  
+- **Password:** superadmin54321
+
+### 🛠 Admin
+- **Email:** peter@laravel.com  
+- **Password:** admin54321
+
+
