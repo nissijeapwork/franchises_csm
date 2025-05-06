@@ -30,8 +30,8 @@ Make sure your environment has the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone --branch your-branch-name https://bitbucket.org/your-repository-name.git
-cd your-project-folder
+git clone --branch main https://github.com/nissijeapwork/franchises_csm.git
+cd franchises_csm
 ```
 
 ### 2. Install PHP Dependencies
@@ -48,7 +48,6 @@ npm install
 npm run build
 
 # Or for development:
-
 npm run dev
 ```
 
@@ -70,9 +69,9 @@ APP_URL=http://localhost
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=your_database
-DB_USERNAME=your_username
-DB_PASSWORD=your_password
+DB_DATABASE=franchise_directory
+DB_USERNAME=root
+DB_PASSWORD=
 ```
 
 ### 5. Generate Application Key
@@ -94,4 +93,5 @@ php artisan migrate
 ```bash
 php artisan serve
 ```
+
 Visit your app at http://127.0.0.1:8000
