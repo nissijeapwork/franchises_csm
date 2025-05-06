@@ -61,9 +61,9 @@ npm run dev
 2. Create a new database named `franchise_directory`.
 3. Navigate to your project directory: /MySQL-DB/
 4. Import the SQL file `franchise_directory.sql`:
-- In phpMyAdmin, click the franchise_directory database
+- In phpMyAdmin, click the `franchise_directory` database
 - Click the Import tab
-- Choose the file: franchise_directory.sql
+- Choose the file: `franchise_directory.sql`
 - Click Go
 
 ### 6. Configure Environment
